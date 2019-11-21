@@ -1,0 +1,104 @@
+button:focus{
+    outline: none;
+}
+
+body{
+    color:white !important;
+    background-color: #191919 !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.table{
+    width:80% !important;
+    margin-left:10%;
+}
+
+.form-control{
+    margin-bottom:50px;
+}
+
+.title{
+    font-size: 15px;
+    display:inline-block;
+    letter-spacing:5px;
+    margin: 20px;
+    color:white;
+    text-decoration:none;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+}
+
+
+.title:hover{
+    color:#8e8e8e;
+}
+
+
+.col-lg-10{
+    margin-left:10%;
+    margin-right:10% !important;
+}
+
+
+.menu{
+    text-align: center;
+    margin: 30px;
+    margin-bottom:100px;
+}
+
+.add_content{
+    text-align:center;
+}
+
+.textBox{
+    margin-top:10px;
+    margin-bottom:30px;
+}
+
+#page2{
+    display:none;
+}
+
+#searchbox{
+    color: black;
+    padding: 3px;
+    border-radius: 4px;
+    border: none;
+    width:100%;
+}
+
+.searchContent{
+    margin-left: 10%;
+    width: 40%;
+    margin-bottom:130px;
+
+}
+
+.search-list{
+    position: absolute;
+    background-color: white;
+    color: blue;
+    padding: 0;
+}
+
+.search-list-item{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px 15px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.search-list-item:hover{
+    background-color: lightblue;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px !important;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px !important;
+}
